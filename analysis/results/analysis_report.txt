@@ -1,0 +1,112 @@
+================================================================================
+  CHANG BO'RONI MA'LUMOTLARI TAHLILI — 0-BOSQICH HISOBOTI
+  Stansiyalar: 83 ta | Davr: 2011-2020
+================================================================================
+
+UMUMIY STATISTIKA:
+  Jami chang bo'roni hodisalari: 71582
+  Kuchli (V < 0.5 km + shamol/quruqlik): 12663
+  O'rtacha (V < 1 km + shamol/quruqlik): 35851
+  Yengil (V < 2 km + shamol + quruqlik): 23068
+
+YILLAR BO'YICHA:
+  1961: 47 hodisa
+  1962: 37 hodisa
+  1963: 44 hodisa
+  1964: 39 hodisa
+  1965: 36 hodisa
+  1966: 9 hodisa
+  1967: 2 hodisa
+  1968: 10 hodisa
+  1969: 13 hodisa
+  1970: 7 hodisa
+  1971: 8 hodisa
+  1972: 9 hodisa
+  1973: 2 hodisa
+  1974: 5 hodisa
+  1975: 9 hodisa
+  1976: 11 hodisa
+  1977: 6 hodisa
+  1978: 5 hodisa
+  1979: 9 hodisa
+  1980: 23 hodisa
+  1981: 11 hodisa
+  1982: 8 hodisa
+  1983: 10 hodisa
+  1984: 14 hodisa
+  1985: 15 hodisa
+  1986: 12 hodisa
+  1987: 10 hodisa
+  1988: 2 hodisa
+  1990: 3 hodisa
+  1991: 1 hodisa
+  1994: 2 hodisa
+  1995: 3 hodisa
+  1996: 1 hodisa
+  2000: 1 hodisa
+  2001: 2 hodisa
+  2002: 1 hodisa
+  2003: 2 hodisa
+  2004: 4 hodisa
+  2005: 6 hodisa
+  2006: 5 hodisa
+  2008: 2 hodisa
+  2009: 1 hodisa
+  2010: 36 hodisa
+  2011: 7397 hodisa
+  2012: 7815 hodisa
+  2013: 7810 hodisa
+  2014: 7162 hodisa
+  2015: 6552 hodisa
+  2016: 7140 hodisa
+  2017: 6497 hodisa
+  2018: 6847 hodisa
+  2019: 6990 hodisa
+  2020: 6889 hodisa
+
+OYLAR BO'YICHA (mavsumiylik):
+  Yan: 5704 hodisa
+  Fev: 5061 hodisa
+  Mar: 5475 hodisa
+  Apr: 5127 hodisa
+  May: 5510 hodisa
+  Iyn: 5736 hodisa
+  Iyl: 6028 hodisa
+  Avg: 6351 hodisa
+  Sen: 6540 hodisa
+  Okt: 7508 hodisa
+  Noy: 6859 hodisa
+  Dek: 5683 hodisa
+
+TOP-20 STANSIYALAR (kuchli chang bo'roni bo'yicha):
+  Stansiya                    Kuchli  Ortacha     Jami
+  -------------------------------------------------------
+  NASREDINBEK                   1267     1151     2642
+  Pap                           1195     1536     3062
+  Нурабад                       1145     1495     3139
+  KOKARAL                        880     1238     2664
+  SARKANDA                       873     1665     3044
+  NURATA                         753     1314     2438
+  Pskem                          689     1409     2824
+  Chimkurgan                     565     1428     2811
+  SHAHIMARDAN                    548     1436     2598
+  CHIMGAN                        489      910     1692
+  PAJSHANBA                      458      787     1578
+  SHURCHY                        428      808     1510
+  Jubilej                        344      943     1851
+  Dukant 1                       338      780     1446
+  TUJAMUIN                       337      634     1217
+  OYGAING                        332      145      536
+  TAHIATAS                       219      598     1391
+  GALAARAL                       183      739     1384
+  Fedchenko                      155     1095     2004
+  KAMCHIK                        114      484      999
+
+
+MEZONLAR (ishlatilgan — tuman filtrlangan):
+  KUCHLI chang bo'roni: V < 0.5 km VA (VxG >= 10.0 m/s YOKI UN < 40.0%)
+  O'RTACHA: V < 1.0 km VA (VxG >= 8.0 m/s YOKI UN < 40.0%)
+  YENGIL: V < 2.0 km VA VxG >= 10.0 m/s VA UN < 40.0%
+  TUMAN FILTRI: V past VA shamol < 5 m/s VA namlik > 70% → chiqarib tashlanadi
+
+BIRLIKLAR: V = km, Vx8/VxG = m/s, U/UN = %
