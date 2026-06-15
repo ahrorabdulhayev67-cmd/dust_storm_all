@@ -14,24 +14,31 @@ import sys
 import os
 import csv
 from collections import defaultdict
-
-# xlrd kutubxonasini import qilish
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '..', 'xlrd'))
-# Agar xlrd tizimda o'rnatilgan bo'lsa
-try:
-    import xlrd
-except ImportError:
-    sys.path.insert(0, '/projects/sandbox/xlrd')
-    import xlrd
+import xlrd
 
 # ============================================================
-# SOZLAMALAR
+# SOZLAMALAR — yo'llarni o'z kompyuteringizga moslang!
 # ============================================================
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-                        'data', 'все станции за 10 лет')
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-                          'analysis', 'results')
+# Loyiha papkasi (step0_data_quality.py yoki notebook joylashgan papkadan bir qadam yuqori)
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Ma'lumotlar papkasi
+DATA_DIR = os.path.join(PROJECT_DIR, "data", "все станции за 10 лет")
+
+# Natijalar saqlanadigan papka
+OUTPUT_DIR = os.path.join(PROJECT_DIR, "analysis", "results")
+
+# ─────────────────────────────────────────────────────────────
+# AGAR YUQORIDAGI YO'LLAR ISHLAMASA, quyidagi qatorlardan birini
+# izohdan chiqarib, o'z yo'lingizni yozing:
+#
+# DATA_DIR = "C:/Users/SizningNom/dust_storm_all/data/все станции за 10 лет"
+# DATA_DIR = "/home/user/dust_storm_all/data/все станции за 10 лет"
+#
+# OUTPUT_DIR = "C:/Users/SizningNom/dust_storm_all/analysis/results"
+# OUTPUT_DIR = "/home/user/dust_storm_all/analysis/results"
+# ─────────────────────────────────────────────────────────────
 
 # Chang bo'roni aniqlash mezonlari
 # V (ko'rinish) - km da (tasdiqlangan: JASLYK max=23.6, NUKUS max=11.8)
